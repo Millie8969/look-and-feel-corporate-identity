@@ -1,0 +1,85 @@
+:root{
+    /* Coloring */
+    --background-dark: #0e3b53;
+    --background-light: #8bcbbe;
+    --text-light: #ffffff;
+
+    /* Typography */
+    --font-size-large: 32px;
+
+    /* Spacing */
+    --letter-spacing-standard: 0.05rem;
+    --padding-standard: 10px;
+    --padding-small: 5px;
+    --padding-disabled: 0px;
+    --offset-left: 8%;
+    --introduction-max-width: 73%;
+    --margin-disabled: 0;
+
+    /* Miscellaneous */
+    --page-overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Georama';
+    src:url(assets/fonts/Georama-Regular.ttf)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    letter-spacing: var(--letter-spacing-standard);
+    overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Gloock';
+  src: url(assets/fonts/Gloock-Regular.woff);
+}
+
+.title {
+    color: var(--background-dark);
+    font-family: 'Gloock';
+    margin: var(--margin-disabled);
+    padding: var(--padding-standard);
+    width: 100%;
+    background-color: var(--background-light);
+}
+
+.about {
+    color: black;
+}
+
+.about:hover {
+    color: var(--background-dark);
+}
+.introduction-container {
+    margin: var(--margin-disabled);
+    font-family: 'Gloock';
+    background-color: #ead9c3;
+    padding: var(--padding-standard);
+    padding-left: var(--offset-left);
+
+    & .introduction-header{
+        padding-left: var(--offset-left);
+        font-size: var(--font-size-large);
+    }
+  
+    & .introduction {
+        margin: var(--margin-disabled);
+        font-family: 'Gloock';
+        background-color: #ead9c3;
+        padding: var(--padding-standard);
+        padding-left: var(--offset-left);
+        max-width: var(--introduction-max-width);
+    }
+}
+
+.main-title {
+    margin: var(--margin-disabled);
+    color: var(--text-light);
+    text-align: center;
+    font-family: 'Georama';
+    font-size: var(--font-size-large);
+    background-color: #0e3b53;
+}
