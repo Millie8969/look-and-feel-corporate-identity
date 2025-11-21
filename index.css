@@ -73,7 +73,7 @@ body {
 .introduction-container {
     margin: var(--margin-disabled);
     font-family: var(--font-header);
-    background-color: #ead9c3;
+    background-color: var(--background-cream);
     padding: var(--padding-standard);
     padding-left: var(--offset-left);
 
