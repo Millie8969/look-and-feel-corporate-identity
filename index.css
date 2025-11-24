@@ -54,12 +54,13 @@ h2.introduction {
     color: var(--accent-dark);
 }
 
-.title {
+.header-title {
+    display: flex;
     color: var(--accent-light);
     font-family: var(--font-header);
     margin: var(--margin-disabled);
     padding: var(--padding-standard);
-    width: var(--page-width-full);
+    
     background-color: var(--background-inset);
 }
 
