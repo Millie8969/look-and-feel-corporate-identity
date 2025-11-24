@@ -6,15 +6,7 @@
     /* Sizing */
     --page-width-full: 100%;
 
-    /* Coloring */
-    --blackground: #000000;
-    --background-dark: #0e3b53;
-    --background-light: #8bcbbe;
-    --background-cream:  #ead9c3;
-    --text-light: #ffffff;
-
     /* Typography */
-    --font-size-large: 32px;
     --font-main: 'Georama';
     --font-header: 'Gloock';
     --font-footer: 'IBM';
@@ -53,39 +45,49 @@ body {
     letter-spacing: var(--letter-spacing-standard);
     overflow-x: hidden;
 }
+
+h2.introduction-header {
+    color: var(--accent-dark);
+}
+
+h2.introduction {
+    color: var(--accent-dark);
+}
+
 .title {
-    color: var(--background-dark);
+    color: var(--accent-light);
     font-family: var(--font-header);
     margin: var(--margin-disabled);
     padding: var(--padding-standard);
     width: var(--page-width-full);
-    background-color: var(--background-light);
+    background-color: var(--background-inset);
 }
 
 .about {
-    color: var(--blackground);
+    color: var(--accent-dark);
 }
 
 .about:hover {
-    color: var(--background-dark);
+    color: var(--background-inset);
 }
 
 .introduction-container {
     margin: var(--margin-disabled);
     font-family: var(--font-header);
-    background-color: var(--background-cream);
+    background-color: var(--accent-light);
     padding: var(--padding-standard);
     padding-left: var(--offset-left);
 
     & .introduction-header{
         padding-left: var(--offset-left);
-        font-size: var(--font-size-large);
+        font-size: var(--headline);
     }
   
     & .introduction {
         margin: var(--margin-disabled);
         font-family: var(--font-header);
-        background-color: var(--background-cream);
+        font-size: var(--headline);
+        background-color: var(--accent-light);
         padding: var(--padding-standard);
         padding-left: var(--offset-left);
         max-width: var(--introduction-max-width);
@@ -94,11 +96,11 @@ body {
 
 .main-title {
     margin: var(--margin-disabled);
-    color: var(--text-light);
+    color: var(--text);
     text-align: center;
     font-family: var(--font-main);
-    font-size: var(--font-size-large);
-    background-color: var(--background-dark);
+    font-size: var(--headline);
+    background-color: var(--background-inset);
 }
 
 .idea-catalogue {
@@ -109,13 +111,13 @@ body {
 
 footer {
     margin: var(--margin-disabled);
-    background-color: var(--blackground);
+    background-color: var(--accent-dark);
     padding: var(--padding-standard);
 
     & .footer-title {
         margin: var(--margin-disabled);
         font-family: var(--font-footer);
         font-size: var(--font-size-large);
-        color: var(--text-light)
+        color: var(--text)
     }
 }
