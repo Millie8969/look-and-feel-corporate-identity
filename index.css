@@ -1,4 +1,7 @@
 :root{
+    /* Colors */
+    --background-light: hsl(168, 38%, 67%);
+
     /* Layout */
     --grid-layout-desktop: 1fr 1fr 1fr;
     --grid-layout-mobile: 1fr 1fr;
@@ -105,9 +108,31 @@ h2.introduction {
 }
 
 .idea-catalogue {
+    margin: auto;
+    padding: var(--padding-standard);
     display: grid;
+    justify-items: stretch;
+
+    max-width: 90%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 
     grid-template-columns: var(--grid-layout-desktop);
+}
+
+@media (width < 485px) {
+        .idea-catalogue {
+            grid-template-columns: var(--grid-layout-mobile);
+        }
+}
+
+.idea-card {
+    padding: var(--padding-standard);
+    background-color: var(--background-light);
+
+& h3{
+        color: black;
+    }  
 }
 
 footer {
