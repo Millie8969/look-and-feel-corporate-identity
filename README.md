@@ -6,12 +6,16 @@ De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/look-and-f
 
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Design for recognition: Corporate Identity
+
+In dit project laat zien hoe ik een (deel van een) website kan omzetten naar een ontwerp wat de huisstijl van de opdrachtggever goed vertegenwoordigt.
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Op deze site komen alle ideeën te staan voor ambtenaren en hoe ze deze ethisch kunnen implementeren. Het doel van deze site is dan ook om als een ethische ideeën-catalogus te fungeren voor beleidsmakers, zodat die geen ethische vraagstukken over het hoofd zien terwijl ze een oplossing (willen) implementeren. 
+
+<img width="1920" height="949" alt="image" src="https://github.com/user-attachments/assets/a638cdb7-12c3-4758-a2c2-1e2eb95ffb5b" />
+
+Link naar de site: [Design For Recognition](https://millie8969.github.io/look-and-feel-corporate-identity/)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
