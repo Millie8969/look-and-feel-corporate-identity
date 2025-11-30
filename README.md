@@ -18,6 +18,7 @@ Op deze site komen alle ideeën te staan voor ambtenaren en hoe ze deze ethisch 
 Link naar de site: [Design For Recognition](https://millie8969.github.io/look-and-feel-corporate-identity/)
 
 ## Kenmerken
+Voor het testen van de website is een WCAG-audit gedaan. [Link naar de WCAG-audit](https://github.com/Millie8969/look-and-feel-corporate-identity/issues/11)
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 ## Bronnen
