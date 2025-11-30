@@ -21,6 +21,11 @@ Link naar de site: [Design For Recognition](https://millie8969.github.io/look-an
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 ## Bronnen
+Gebruikte bronnen:
+* [CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/#aa-special-units-functions)
+* [Using Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+* [The A11Y Project WCAG Checklist](https://www.a11yproject.com/checklist)
+* [How to Review for Accessibility](https://web.dev/articles/how-to-review)
 
 ## Licentie
 
