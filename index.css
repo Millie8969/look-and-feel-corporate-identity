@@ -7,6 +7,8 @@
     --grid-layout-mobile: 1fr 1fr;
 
     /* Sizing */
+    --card-height: 400px;
+    --card-max-width: 350px;
     --page-width-full: 100%;
 
     /* Typography */
@@ -22,6 +24,7 @@
     --offset-left: 8%;
     --introduction-max-width: 73%;
     --margin-disabled: 0;
+    --border-radius-standard: 5px;
 
     /* Miscellaneous */
     --page-overflow: hidden;
@@ -120,15 +123,19 @@ h2.introduction {
     grid-template-columns: var(--grid-layout-desktop);
 }
 
-@media (width < 485px) {
+@media (width < 860px) {
         .idea-catalogue {
             grid-template-columns: var(--grid-layout-mobile);
         }
 }
 
 .idea-card {
+    margin: auto;
     padding: var(--padding-standard);
     background-color: var(--background-light);
+    max-width: var(--card-max-width);
+    height: var(--card-height);
+    border-radius: var(--border-radius-standard);
 
 & h3{
         color: black;
