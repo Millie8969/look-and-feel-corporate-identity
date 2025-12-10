@@ -3,6 +3,7 @@
     --background-light: hsl(168, 38%, 67%);
 
     /* Layout */
+    --text-center: center;
     --grid-layout-desktop: 1fr 1fr 1fr;
     --grid-layout-mobile: 1fr 1fr;
 
@@ -151,6 +152,11 @@ footer {
         margin: var(--margin-disabled);
         font-family: var(--font-footer);
         font-size: var(--font-size-large);
-        color: var(--text)
+        color: var(--text);
     }
+}
+
+.signup {
+    margin: var(--margin-disabled);
+    text-align: center;
 }
