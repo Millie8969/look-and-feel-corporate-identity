@@ -160,3 +160,9 @@ footer {
     margin: var(--margin-disabled);
     text-align: center;
 }
+
+.logo-auas-header {
+    align-self: center;
+    height: 50px;
+    filter: invert(0);
+}
