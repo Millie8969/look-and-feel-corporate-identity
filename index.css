@@ -125,9 +125,9 @@ h2.introduction {
 }
 
 @media (width < 860px) {
-        .idea-catalogue {
-            grid-template-columns: var(--grid-layout-mobile);
-        }
+    .idea-catalogue {
+        grid-template-columns: var(--grid-layout-mobile);
+    }
 }
 
 .idea-card {
@@ -138,8 +138,8 @@ h2.introduction {
     height: var(--card-height);
     border-radius: var(--border-radius-standard);
 
-& h3{
-        color: black;
+    & h3{
+            color: black;
     }  
 }
 
@@ -147,12 +147,19 @@ footer {
     margin: var(--margin-disabled);
     background-color: var(--accent-dark);
     padding: var(--padding-standard);
+    
 
     & .footer-title {
+        display: inline;
         margin: var(--margin-disabled);
         font-family: var(--font-footer);
         font-size: var(--font-size-large);
         color: var(--text);
+        width: fit-content;
+    }
+
+    & .signup-link {
+        text-align: right;
     }
 }
 
@@ -165,4 +172,12 @@ footer {
     align-self: center;
     height: 50px;
     filter: invert(0);
+}
+
+.signup-link {
+    float: right;
+}
+
+.signup-link:hover {
+    color: var(--accent-light);
 }
